@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:orientation="horizontal"
+    android:background="@color/tan_background">
+
+    <ImageView
+        android:id="@+id/icon_assoc"
+        style="@style/ListItemImageViewStyle"/>
+
+    <LinearLayout
+        android:id="@+id/layout_list_item"
+        style="@style/ListItemStyle">
+
+        <TextView
+            android:id="@+id/miwoki_translation"
+            style="@style/ListItemTextViewStyle"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/default_translation"
+            style="@style/ListItemTextViewStyle" />
+
+    </LinearLayout>
+
+    <ImageView
+        style="@style/ListItemPlayIconStyle"
+        android:src="@drawable/sharp_play_arrow_white"/>
+</RelativeLayout>

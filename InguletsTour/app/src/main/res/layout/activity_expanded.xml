@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/NestedScrollViewExpandedActivity"
+    tools:context=".activity.ExpandedActivity">
+
+    <android.support.constraint.ConstraintLayout
+        style="@style/ConstraintLayoutExpandedActivity">
+
+        <ImageView
+            android:id="@+id/image_exp"
+            style="@style/ImageViewExpandedActivity"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/stub_view_exp" />
+
+        <TextView
+            android:id="@+id/body_text_exp"
+            style="@style/BodyTextViewExpandedActivity"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_exp" />
+
+        <View
+            android:id="@+id/stub_view_exp"
+            style="@style/StubViewExpandedActivity"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/header_text_exp"
+            style="@style/HeaderTextViewExpandedActivity"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

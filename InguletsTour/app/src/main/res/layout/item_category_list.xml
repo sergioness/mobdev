@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/RootLayoutItemCategoryList">
+
+    <ImageView
+        android:id="@+id/imageView_item_category_list"
+        style="@style/ImageViewItemCategorylist" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/text_layout_exp"
+        style="@style/TextLayoutItemCategoryList">
+
+        <TextView
+            android:id="@+id/body_text_itl"
+            style="@style/BodyTextItemCategoryList"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/header_text_itl"
+           style="@style/HeaderTextItemCategoryList"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

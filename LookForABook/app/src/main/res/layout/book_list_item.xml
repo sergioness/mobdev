@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/book_item_root"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="128dp"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/book_thumbnail" />
+
+    <TextView
+        android:id="@+id/authors_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/averia_libre"
+        android:maxLines="1"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:textSize="12sp"
+        android:textColor="#666666"
+        app:layout_constraintBottom_toTopOf="@id/title_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image_view"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="J. K. Rowling" />
+
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/averia_libre_bold"
+        android:maxLines="1"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:textColor="#222222"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/details_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image_view"
+        app:layout_constraintTop_toBottomOf="@id/authors_view"
+        tools:text="Harry Potter" />
+
+    <TextView
+        android:id="@+id/details_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintStart_toEndOf="@id/image_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_view"
+        app:layout_constraintBottom_toTopOf="@+id/description_view"
+        android:fontFamily="@font/averia_libre"
+        android:textColor="#888888"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        tools:text="2002, 314 pages" />
+
+    <TextView
+        android:id="@+id/description_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/averia_libre_light_italic"
+        android:maxLines="6"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:textColor="#444444"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image_view"
+        app:layout_constraintTop_toBottomOf="@id/details_view"
+        tools:text="Harry Potter thinks he is an ordinary boy until he is rescued by an owl, taken to Hogwarts School of Witchcraft and Wizardry, learns to play Quiddich, and engages in a deadly duel. The reason: Harry is a wizard." />
+
+</android.support.constraint.ConstraintLayout>
