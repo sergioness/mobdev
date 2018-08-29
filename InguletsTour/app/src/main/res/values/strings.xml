@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Ingulets Guide App</string>
+
+    <string name="locals_voice_category">Locals\' Voice</string>
+    <string name="lv_1_header">Fallen in love</string>
+    <string name="lv_1_body">This town is by no means perfect, but I love the culture and the diversity. It’s corny and obvious, but polarizing at the same time. Especially in the climate we’re living in now, to have a city like this where you have so many different people from so many different backgrounds all contributing and making this thing work.</string>
+    <string name="lv_2_header">About</string>
+    <string name="lv_2_body">The city was founded in the 18th century by Zaporozhian Cossacks. Kryvyi Rih in Ukrainian literally means Crooked Horn. According to local legend, the city was founded by a crooked (Ukrainian slang for one-eyed) Cossack named Rih. However, records pre-dating the existence of the city refer to the area by the same name, due to the shape of the landmass formed by the merging of the river Saksahan into the Inhulets. Inhuletskyi District is an urban district of Kryvyi Rih City, southeastern-central Ukraine. Population: 58 000 (2013 population estimate). </string>
+
+    <string name="have_a_bite_category">Have a Bite</string>
+    <string name="hb_hookah_graff_header">Hookah Bar GRAFF</string>
+    <string name="hb_hookah_graff_body">A hookah lounge (also called a shisha bar or den, especially in Britain and parts of Canada, or a hookah bar) is an establishment where patrons share shisha from a communal hookah or which is placed at each table or a bar. A hookah and a variety of tobacco products are on display in a Harvard Square store window in Cambridge, Massachusetts, United States.Often, hookah lounges are owned and operated by people from the Arab world, origin and or other regions where use of the hookah is a centuries-old tradition. Many hookah lounges incorporate such elements as Islamic decor and Arabic music or Indian music. In Europe this is no longer a fact and hookah lounges are simply a bar without the eastern cultural elements.</string>
+    <string name="hb_montana_pizza_header">Montana Pizza</string>
+    <string name="hb_montana_pizza_body">At MONTANA BROTHERS Pizzeria Restaurant and Bar, we truly love what we do. Since our humble beginnings in 1989 at our first location, to the present day and our second location on the famed Nautical mile that has not changed. We take great pride in what we do and strive to create a dining experience that is both relaxing and memorable. All of our offerings are prepared fresh daily, with the best ingredients available.</string>
+    <string name="hb_sadyba_header">Sadyba</string>
+    <string name="hb_sadyba_body">A restaurant, or an eatery, is a business which prepares and serves food and drinks to customers in exchange for money. Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services, and some offer only take-out and delivery. Restaurants vary greatly in appearance and offerings, including a wide variety of cuisines and service models ranging from inexpensive fast food restaurants and cafeterias to mid-priced family restaurants, to high-priced luxury establishments. </string>
+    <string name="hb_wood_cafe_header">Wood Cafe</string>
+    <string name="hb_wood_cafe_body">A coffeehouse, coffee shop or café (sometimes spelt cafe) is an establishment which primarily serves hot coffee, related coffee beverages (café latte, cappuccino, espresso), tea, and other hot beverages. Some coffeehouses also serve cold beverages such as iced coffee and iced tea. Many cafés also serve some type of food, such as light snacks, muffins or pastries. Coffeehouses range from owner-operated small businesses to large multinational corporations. </string>
+
+    <string name="chilling_outside_category">Chilling Outside</string>
+    <string name="co_ingulets_park_header">Ingulets Park</string>
+    <string name="co_ingulets_park_body">A park is an area of natural, semi-natural or planted space set aside for human enjoyment and recreation or for the protection of wildlife or natural habitats. It may consist of grassy areas, rocks, soil and trees, but may also contain buildings and other artifacts such as monuments, fountains or playground structures. I</string>
+    <string name="co_glory_avenue_header">Glory Avenue</string>
+    <string name="co_glory_avenue_body">In landscaping, an avenue, or allée, is traditionally a straight path or road with a line of trees or large shrubs running along each side, which is used, as its Latin source venire ("to come") indicates, to emphasize the "coming to," or arrival at a landscape or architectural feature. In most cases, the trees planted in an avenue will be all of the same species or cultivar, so as to give uniform appearance along the full length of the avenue.</string>
+    <string name="co_sc_ingulets_header">Sport School №2</string>
+    <string name="co_sc_ingulets_body">A sports school is a type of educational institution for children that originated in the Soviet Union. Sports schools were the basis of the powerful system of physical culture (fitness) and sports education in the USSR and the Eastern Bloc, particularly East Germany.</string>
+    <string name="co_sheva_monum_header">Taras Shevchenko Monument</string>
+    <string name="co_sheva_monum_body">Taras Hryhorovych Shevchenko was a Ukrainian poet, writer, artist, public and political figure, as well as folklorist and ethnographer. His literary heritage is regarded to be the foundation of modern Ukrainian literature and, to a large extent, the modern Ukrainian language. Shevchenko is also known for many masterpieces as a painter and an illustrator.</string>
+    <string name="co_st_mykola_church_header">St.Mykola Church</string>
+    <string name="co_st_mykola_church_body">Many people today understand the church as a building. This is not a biblical understanding of the church. The word “church” comes from the Greek word ekklesia which is defined as “an assembly” or “called-out ones.” The root meaning of “church” is not that of a building, but of people.</string>
+    <string name="co_tennis_court_header">Tennis Court</string>
+    <string name="co_tennis_court_body">Tennis is a racket sport that can be played individually against a single opponent (singles) or between two teams of two players each (doubles). Each player uses a tennis racket that is strung with cord to strike a hollow rubber ball covered with felt over or around a net and into the opponent\'s court. The object of the game is to maneuver the ball in such a way that the opponent is not able to play a valid return. The player who is unable to return the ball will not gain a point, while the opposite player will. </string>
+
+    <string name="title_exp">More</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+</resources>

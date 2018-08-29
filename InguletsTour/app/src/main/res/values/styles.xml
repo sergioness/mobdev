@@ -1,0 +1,149 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- ExpandedActivity -->
+    <style name="NestedScrollViewExpandedActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/exp_page_background</item>
+    </style>
+
+    <style name="ConstraintLayoutExpandedActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginTop">@dimen/extraMarginTop</item>
+    </style>
+
+    <style name="ImageViewExpandedActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="BodyTextViewExpandedActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/defaultTextSize</item>
+        <item name="android:background">@color/exp_text_background</item>
+        <item name="android:fontFamily">@font/lekton</item>
+        <item name="android:padding">@dimen/halfOfDefaultMargin</item>
+        <item name="android:layout_marginStart">@dimen/defaultMargin</item>
+        <item name="android:layout_marginEnd">@dimen/defaultMargin</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="StubViewExpandedActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/defaultMargin</item>
+        <item name="android:layout_marginStart">@dimen/defaultMargin</item>
+        <item name="android:layout_marginEnd">@dimen/defaultMargin</item>
+        <item name="android:layout_marginTop">@dimen/defaultMargin</item>
+        <item name="android:background">@color/exp_text_background</item>
+    </style>
+
+    <style name="HeaderTextViewExpandedActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/defaultMargin</item>
+        <item name="android:layout_marginEnd">@dimen/defaultMargin</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <!-- ExpandedActivity -->
+
+    <!-- MainActivity -->
+    <style name="LinearLayoutMainActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/exp_page_background</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TabLayoutMainActivity" parent="Widget.Design.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabIndicatorColor">@color/exp_page_background</item>
+        <item name="tabBackground">@color/colorPrimary</item>
+        <item name="tabSelectedTextColor">@color/exp_page_background</item>
+        <item name="tabTextColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="ViewPagerMainActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- MainActivity -->
+
+    <style name="ListViewCategoryList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:drawSelectorOnTop">true</item>
+    </style>
+
+    <style name="RootLayoutItemCategoryList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">144dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingEnd">@dimen/defaultMargin</item>
+        <item name="android:paddingStart">12dp</item>
+    </style>
+
+    <style name="ImageViewItemCategorylist">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">128dp</item>
+        <item name="android:layout_marginStart">@dimen/fourthOfDefaultMargin</item>
+        <item name="android:layout_marginTop">@dimen/halfOfDefaultMargin</item>
+        <item name="android:layout_marginBottom">@dimen/halfOfDefaultMargin</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="TextLayoutItemCategoryList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">@dimen/fourthOfDefaultMargin</item>
+        <item name="android:layout_marginTop">@dimen/halfOfDefaultMargin</item>
+        <item name="android:layout_marginBottom">@dimen/halfOfDefaultMargin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="BodyTextItemCategoryList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/defaultMargin</item>
+        <item name="android:paddingTop">@dimen/halfOfDefaultMargin</item>
+        <item name="android:fontFamily">@font/lekton</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">6</item>
+        <item name="android:background">@color/exp_text_background</item>
+    </style>
+
+    <style name="HeaderTextItemCategoryList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zeroDp</item>
+        <item name="android:layout_marginTop">@dimen/zeroDp</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+        <item name="android:textSize">@dimen/defaultTextSize</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:autoSizeStepGranularity">2sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+    </style>
+</resources>

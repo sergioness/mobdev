@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/LinearLayoutMainActivity"
+    tools:context=".activity.MainActivity">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout_mainactivity"
+        style="@style/TabLayoutMainActivity" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_mainactivity"
+        style="@style/ViewPagerMainActivity"/>
+
+</LinearLayout>

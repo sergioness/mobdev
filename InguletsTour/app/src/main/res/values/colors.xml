@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37966F</color>
+    <color name="colorPrimaryDark">#356859</color>
+    <color name="category_chilling_outside">#FFFBE6</color>
+    <color name="category_have_a_bite">@color/category_chilling_outside</color>
+    <color name="category_locals_voice">@color/category_chilling_outside</color>
+    <color name="exp_text_background">#b9e4c9</color>
+    <color name="exp_page_background">@color/category_chilling_outside</color>
+    <color name="colorSecondary">#FD5523</color>
+</resources>
