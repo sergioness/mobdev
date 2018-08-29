@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Look For A Book</string>
+    <string name="if_no_connection">No Internet connection.</string>
+    <string name="if_empty">No books found.</string>
+    <string name="promt">Look for a&#160;</string>
+    <string name="hint">title</string>
+</resources>
