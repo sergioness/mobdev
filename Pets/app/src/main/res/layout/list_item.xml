@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/pet_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#2B3D4D"
+        android:fontFamily="sans-serif-medium"
+        tools:text="Tommy"/>
+
+    <TextView
+        android:id="@+id/pet_breed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pet_name"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#AEB6BD"
+        android:fontFamily="sans-serif"
+        tools:text="Timberlake"/>
+
+</android.support.constraint.ConstraintLayout>
