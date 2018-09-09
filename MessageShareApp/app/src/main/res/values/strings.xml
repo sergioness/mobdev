@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MessageShareApp</string>
+    <string name="greeting">Hello</string>
+    <string name="show_message">Show message</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="share">Share</string>
+    <string name="to_recycler_view">To Recycler View</string>
+    <string name="send">Send</string>
+</resources>

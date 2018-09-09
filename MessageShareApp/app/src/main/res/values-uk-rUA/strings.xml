@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MessageShareApp</string>
+    <string name="greeting">Привіт</string>
+    <string name="show_message">Переглянути повідомлення</string>
+    <string name="enter_your_message">Введіть Ваше повідомлення</string>
+    <string name="share">Поділитися</string>
+    <string name="to_recycler_view">До RecyclerView</string>
+    <string name="send">Надіслати</string>
+</resources>
